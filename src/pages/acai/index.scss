@@ -1,0 +1,16 @@
+.box-principal{
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    .box-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px black solid;
+        width: 50em;
+        margin-top: 4em;
+        height: 30em;
+    }
+}
