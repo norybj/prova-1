@@ -2,7 +2,8 @@
 
     align-items: center;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content:space-around;
 
     .box-2{
         display: flex;
@@ -14,4 +15,16 @@
         height: 30em;
         box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
     }
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        border: 1px black solid;
+        width: 10em;
+        align-items: center;
+        height: 20em;
+        box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+        
+    }
+
 }

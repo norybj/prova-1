@@ -38,9 +38,15 @@ function Calcular() {
 
                 <button onClick={Calcular}>CALCULAR</button>
                 <p>{resultado}</p>
+            </div>
+                <div className='box'>
+                    <h1>navegar</h1>
                 <Link to= '/verificarsigno'>Signo</Link>
                 <Link to= '/verificarpeso'>Peso</Link>
-            </div>
+                <Link to= '/salarioLiquido'> salario Liquido </Link>
+                <Link to= '/temperatura'>Temperatura</Link>
+                <Link to= '/paradas'></Link>
+                </div>
         </div>
     )
 }

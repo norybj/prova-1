@@ -31,7 +31,7 @@ export default function CalcularPeso() {
                 </button>
                 <p>total:</p>
                 {resul} 
-                <Link to= '/'>voltar </Link>
+                
             </div>
         </div>
     )

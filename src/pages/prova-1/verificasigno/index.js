@@ -38,7 +38,7 @@ export default function Libra () {
                 {resultado === true ? 'Signo é Libras? Sim' : 'Signo é Libras? Não'}
                 </div>
                 
-                <Link to = '/'>Voltar</Link>
+                
             </div>
         </div>
     )
