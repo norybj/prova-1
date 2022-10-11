@@ -7,7 +7,7 @@ export default function CalcularAcai() {
 const [acaiPequeno, setAcaiPequeno] = useState(0);
 const [acaiMedio, setAcaiMedio] = useState(0);
 const [acaiGrande, setAcaiGrande] = useState(0);
-const [desconto,setDesconto] = useState(1);
+const [desconto,setDesconto] = useState(0);
 const [resultado, setResultado] = useState('---');
 
 
@@ -17,7 +17,7 @@ function Calcular() {
     setAcaiMedio(acaiMedio * 15.00);
     setAcaiGrande(acaiGrande * 17.50);
     let soma = acaiPequeno + acaiMedio + acaiGrande;
-    setResultado(soma = desconto/ 100);
+    setResultado(soma = soma * desconto/100);
 }
 
     return(
