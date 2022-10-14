@@ -45,7 +45,7 @@ function Calcular() {
                 <Link to= '/verificarpeso'>Peso</Link>
                 <Link to= '/salarioLiquido'> salario Liquido </Link>
                 <Link to= '/temperatura'>Temperatura</Link>
-                <Link to= '/paradas'></Link>
+                <Link to= '/paradas'> Paradas </Link>
                 </div>
         </div>
     )

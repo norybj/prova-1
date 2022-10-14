@@ -6,6 +6,7 @@ import VerificarPeso from './pages/prova-1/verificarpeso';
 import SalarioLiquido from './pages/prova-2/salario-liquido';
 import Temperatura from './pages/prova-2/temperatura';
 import Paradas from './pages/prova-2/paradas';
+import Orcamento from './pages/prova-3/orcamento';
 
 
 function Rotas() {
@@ -17,6 +18,7 @@ function Rotas() {
                 <Route path='/verificarpeso' element={<VerificarPeso />}></Route>
                 <Route path='/salarioLiquido' element={<SalarioLiquido/>}></Route>
                 <Route path='/temperatura' element={<Temperatura/>}></Route>
+                <Route path='orcamento' element={<Orcamento/>}></Route>
                 <Route path='/paradas' element={<Paradas/>}></Route>
             </Routes>
         </BrowserRouter>
