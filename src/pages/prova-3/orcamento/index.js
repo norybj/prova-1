@@ -35,8 +35,8 @@ export default function Orcamento() {
     
 
     return(
-        <section>
-            <div>
+        <section className='box-principal'>
+            <div className='box-2'>
                 <h2>Calcular orçamento familiar</h2>
                 <label>Ganhos</label>
                 <input type="number" value={ganhos} onChange={e => Number (setGanhos(e.target.value))}/>

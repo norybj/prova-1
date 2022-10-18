@@ -1,4 +1,5 @@
-
+import './index.scss'
+import { useState } from 'react'
 
 
 export const TotalCompra = (inteiras, meias, diaSemana, nacional) => {

@@ -7,6 +7,9 @@ import SalarioLiquido from './pages/prova-2/salario-liquido';
 import Temperatura from './pages/prova-2/temperatura';
 import Paradas from './pages/prova-2/paradas';
 import Orcamento from './pages/prova-3/orcamento';
+import ContarAte from './pages/prova-4/contarAte/idex.js';
+import FazerLinha from './pages/prova-4/fazer-linha';
+import FazerForma from './pages/prova-4/fazer-forma';
 
 
 function Rotas() {
@@ -20,6 +23,9 @@ function Rotas() {
                 <Route path='/temperatura' element={<Temperatura/>}></Route>
                 <Route path='orcamento' element={<Orcamento/>}></Route>
                 <Route path='/paradas' element={<Paradas/>}></Route>
+                <Route path='/contar' element={<ContarAte/>}></Route>
+                <Route path='/linha' element={<FazerLinha/>}></Route>
+                <Route path='/forma' element={<FazerForma/>}></Route>
             </Routes>
         </BrowserRouter>
     );
