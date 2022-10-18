@@ -8,11 +8,19 @@ export default function RepetirNumero() {
     const [result,setResult] = useState ('');
 
     function Comecar() {
-        
+        let array = [];        
         if(isNaN(numeroinicial) || isNaN(numerofinal)) throw Error('isso nao é um numero')
-        for (let cont = numeroinicial; cont < numerofinal; cont++){
-            result = console.log(cont);
-        }        
+        
+        for (let cont = numeroinicial; cont <= numerofinal; cont++){
+            
+            array.push(cont);
+            setResult(array);
+            
+            for (let i = 0; i <= 1; i++){
+                array.push(" ");
+                setResult(array);
+            }
+        }           
 
     }
 
@@ -22,11 +30,11 @@ export default function RepetirNumero() {
             <div className='box-2'>
                 <h2>Repetir numero</h2>
                 <label>informe um numero inicial</label>
-                <input type  value={numeroinicial} onChange={e => (setNumeroinicial(e.target.value))}/>
+                <input type="number" value={numeroinicial} onChange={e => Number (setNumeroinicial(e.target.value))}/>
                 <label>informe um numero final</label>
-                <input type="number" value={numerofinal} onChange={e => (setNumerofinal(e.target.value))}/>
+                <input type="number" value={numerofinal} onChange={e => Number (setNumerofinal(e.target.value))}/>
                 <button onClick={Comecar}>Começar</button>
-                <p>{setResult}</p>
+                <p>{result}</p>
             </div>
         </main>
     )
