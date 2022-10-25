@@ -28,7 +28,7 @@ export default function CalcularAluno(){
                 <div className="users">
                     {aluno.map((user) => (
                     <div className="user"> 
-                    aluno {user} : <input type='text'/>
+                    aluno {user} : <input type='text' />
                     </div>
                 ))}
     </div>
