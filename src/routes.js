@@ -10,6 +10,7 @@ import Orcamento from './pages/prova-3/orcamento';
 import ContarAte from './pages/prova-4/contarAte';
 import FazerLinha from './pages/prova-4/fazer-linha';
 import FazerForma from './pages/prova-4/fazer-forma';
+import CalcularQTD from './pages/prova-6'
 
 
 function Rotas() {
@@ -26,6 +27,7 @@ function Rotas() {
                 <Route path='/contar' element={<ContarAte/>}></Route>
                 <Route path='/linha' element={<FazerLinha/>}></Route>
                 <Route path='/forma' element={<FazerForma/>}></Route>
+                <Route path='/calculaqtd' element={<CalcularQTD/>}></Route>
             </Routes>
         </BrowserRouter>
     );
