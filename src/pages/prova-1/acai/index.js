@@ -46,6 +46,11 @@ function Calcular() {
                 <Link to= '/salarioLiquido'> salario Liquido </Link>
                 <Link to= '/temperatura'>Temperatura</Link>
                 <Link to= '/paradas'> Paradas </Link>
+                <Link to= '/orcamento'> Orcamento </Link>
+                <Link to= '/paradas'> Paradas </Link>
+                <Link to= '/contar'> ContarAte </Link>
+                <Link to= '/linha'> Linhas </Link>
+                <Link to= '/forma'> Forma </Link>
                 </div>
         </div>
     )
